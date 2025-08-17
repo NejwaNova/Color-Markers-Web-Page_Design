@@ -1,0 +1,47 @@
+body{
+            display: flex;
+            justify-content: center;
+        }
+ 
+        h1{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        .box{
+            margin: 20px;
+            padding: 20px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        #r{
+            background: linear-gradient(to right,
+             rgb(250, 7, 120) 0 50px,
+            black 50px 60px,
+            pink 60px 75px,
+            black 75px 85px,
+            rgb(231, 137, 153) 60px 280px,
+            rgb(250, 7, 120) 20px 40px);
+        }
+
+        #g{
+             background: linear-gradient(to right,
+             rgb(7, 250, 80) 0 50px,
+            black 50px 60px,
+            rgb(205, 255, 192) 60px 75px,
+            black 75px 85px,
+            rgb(205, 255, 192) 60px 280px,
+            rgb(7, 250, 80) 20px 40px);
+        }
+
+        #b{
+             background: linear-gradient(to right,
+             rgb(250, 7, 7) 0 50px,
+            black 50px 60px,
+            rgb(224, 95, 95) 60px 75px,
+            black 75px 85px,
+            rgb(224, 95, 95) 60px 280px,
+            rgb(250, 7, 7) 20px 40px);
+        }
